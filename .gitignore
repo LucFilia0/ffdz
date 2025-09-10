@@ -1,0 +1,5 @@
+# Don't include environment variable
+/.env
+
+# Don't include nodejs modules
+/node_modules
