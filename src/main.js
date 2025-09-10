@@ -16,9 +16,10 @@ if (
 import { Routes, Events } from "discord.js";
 import BlaguesAPI from "blagues-api";
 
-import FFDZ_Client from "./class/client.ffdz.js";
-import FFDZ_REST from "./class/rest.ffdz.js";
+import FFDZ_Client from "./inc/client.ffdz.js"
+import FFDZ_REST from "./inc/rest.ffdz.js";
 import FFDZ_CommandData from "./data/command.data.js";
+import FFDZ_Format from "./inc/format.ffdz.js";
 
 // Registering commands on guild
 (async () => {
@@ -43,16 +44,21 @@ const blaguesAPIConnection = new BlaguesAPI(process.env.BLAGUES_TOKEN);
 FFDZ_Client.getInstance().on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand())
 		return;
+
+	let joke = null;
 	
 	switch (interaction.commandName) {
 
 		case "geda":
-			const joke = await blaguesAPIConnection.randomCategorized(blaguesAPIConnection.categories.DARK);
-			await interaction.reply(`"*${joke.joke}*"\n||"*${joke.answer}*"||`);
+			await interaction.deferReply();
+			joke = await blaguesAPIConnection.randomCategorized(blaguesAPIConnection.categories.DARK);
+			await interaction.editReply(FFDZ_Format.joke(joke ?? "Error"));
 			break;
 
 		case "gedi":
-			await interaction.reply("gedi");
+			await interaction.deferReply();
+			joke = await blaguesAPIConnection.randomCategorized(blaguesAPIConnection.categories.LIMIT);
+			await interaction.editReply(FFDZ_Format.joke(joke ?? "Error"));
 			break;
 
 	}

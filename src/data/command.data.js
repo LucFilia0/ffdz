@@ -1,4 +1,4 @@
-import FFDZ_Command from "../class/command.ffdz.js";
+import FFDZ_Command from "../inc/command.ffdz.js";
 
 export default [
 	new FFDZ_Command("geda", "Raconte une blague \"DARK\""),
