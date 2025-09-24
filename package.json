@@ -1,0 +1,18 @@
+{
+  "name": "ffdz",
+  "version": "1.1.0",
+  "description": "The Farfadouze clan's Discord bot",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "node --watch ./src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blagues-api": "^2.1.1",
+    "discord.js": "^14.22.1"
+  }
+}
