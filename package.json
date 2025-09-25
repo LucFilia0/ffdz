@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "blagues-api": "^2.1.1",
-    "discord.js": "^14.22.1"
+    "discord.js": "^14.22.1",
+    "fs": "^0.0.1-security"
   }
 }

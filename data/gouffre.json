@@ -1,0 +1,278 @@
+[
+	{
+		"id": 1,
+		"label": "1 pour tous, Tous pour 1 : Tout le monde trinque et boit une gorgée."
+	},
+	{
+		"id": 2,
+		"label": "2 d'Tension : T'as cru que c'est en faisant des 2 que t'allais gagner. Allez bois 2 gorgées."
+	},
+	{
+		"id": 3,
+		"label": "Cheval de 3 : Un poison s'est dissimulé dans ton breuvage.. Rajoute de la potion dans ton verre."
+	},
+	{
+		"id": 4,
+		"label": "Pète à 4 feuilles : Tu gagnes un Joker qui annulera le gage de ton choix. À utiliser avant la fin de la partie."
+	},
+	{
+		"id": 5,
+		"label": "Unis comme les 5 doigts de la main : L'union fait la force, Tout le monde boit une gorgée."
+	},
+	{
+		"id": 6,
+		"label": "6 pieds sous terre : Extermine ton adversaire. Fais boire 6 gorgées à l'adversaire de ton choix."
+	},
+	{
+		"id": 7,
+		"label": "Bottes de 7 lieues : Tu viens de voler les chaussures de Flash Gordon. Avance 1 case devant le joueur de tête. Si tu es déjà premier, rejoue"
+	},
+	{
+		"id": 8,
+		"label": "Grand 8 : Bois 2 gorgées et fais 8 tours sur toi-meme."
+	},
+	{
+		"id": 9,
+		"label": "Les 9 vies d'un chat : Chaque joueur lance le dé. Le plus petit score se fait écraser et retourne sur la case départ. Si tu avais un joker dis-lui adieu."
+	},
+	{
+		"id": 10,
+		"label": "1 de perdue, 10 de retrouvées. T'as misé sur le mauvais cheval. Bois 2 gorgées et rejoue."
+	},
+	{
+		"id": 11,
+		"label": "11 Septembre : Tas l'bonjour de Ben Laden. Passe 2 Tours."
+	},
+	{
+		"id": 12,
+		"label": "Les 12 Coups de minuit : L'heure du crime.. Lance le dé et fais boire le nombre de gorgées qu'il indiquera au joueur de ton choix."
+	},
+	{
+		"id": 13,
+		"label": "Vendredi 13 : Tous tes malheurs sont doublės jusqu'à la fin de la partie, sauf si tu meurs avant."
+	},
+	{
+		"id": 14,
+		"label": "Chercher midi à 14 heures : Une brèche spatio-temporelle vient de s'ouvrir sous vos pieds. L'ordre du lancer du dé s'inverse."
+	},
+	{
+		"id": 15,
+		"label": "Samu 15 : C'est parti pour un tour d'ambulance, Lance le dé et recule du nombre de cases qu'il t'indiquera."
+	},
+	{
+		"id": 16,
+		"label": "Alors comme ca tu vis dans 16ème : ici c'est l'Gouffre. Bois 2 gorgées."
+	},
+	{
+		"id": 17,
+		"label": "17 G.A.V : Ton voisin a appelé les keufs, Passe un tour, si tu as un joker tu le perds à la fouille."
+	},
+	{
+		"id": 18,
+		"label": "Interdit aux moins de 18 : Le dernier à mettre son majeur en l'air boit 2 gorgées."
+	},
+	{
+		"id": 19,
+		"label": "En verlan ça fait 9.1 : Représente juste pour nous-meme. Tout l'monde boit 1 gorgée sauf toi."
+	},
+	{
+		"id": 20,
+		"label": "Qui connait Mr Tilitre ??? Vincent Tilitre : Finis ton verre."
+	},
+	{
+		"id": 21,
+		"label": "4.21 : Défi de dés. Tout l'monde lance le dé, le plus petit score boit 2 gorgées."
+	},
+	{
+		"id": 22,
+		"label": "22 V'là les flics : Course-poursuite !! Tous les joueurs lancent le dé, le plus petit score se fait peter et finit en G.A,V case 17."
+	},
+	{
+		"id": 23,
+		"label": "Jamais 2 sans 3 : Bois 2 gorgées et offre la 3 ème au joueur de ton choix."
+	},
+	{
+		"id": 24,
+		"label": "24 Heures du Mans : Tes adversaires sont au stand, double-les, Avance une case devant le joueur qui te devance. Si tu es en tête, rejoue."
+	},
+	{
+		"id": 25,
+		"label": "25 Décembre : C'est Noël, mais dans le Gouffre rares sont les cadeaux.. Lance le dé, si tu fais un 2 ou un 5 tu gagnes un joker."
+	},
+	{
+		"id": 26,
+		"label": "26 lettres de l'alphabet : Choisis une lettre, le 1er à trouver le nom d'un rappeur commencant par celle-ci fait boire 2 gorgées au joueur de son choix."
+	},
+	{
+		"id": 27,
+		"label": "Club des 27 : La mort t'as fauché en pleine gloire, retourne à la case départ.. Si tu avais un joker il passe à la trappe."
+	},
+	{
+		"id": 28,
+		"label": "28 jours plus tard : La mutation est en cours.. Bois 2 gorgées,"
+	},
+	{
+		"id": 29,
+		"label": "29 Février : Tu fêtes ton anniversaire tous les 4 ans. Passe 3 tours."
+	},
+	{
+		"id": 30,
+		"label": "30 Millions d'ennemis : Tous les joueurs lancent le dé sauf toi, celui ou ceux qui feront un 3 iront sur la case 13 et en paieront les conséquences."
+	},
+	{
+		"id": 31,
+		"label": "Tu t'es mis sur ton 31 : Tout l'monde boit 1 gorgée sauf toi."
+	},
+	{
+		"id": 32,
+		"label": "Souris ! Montre-nous tes 32 dents : Changement de corps. Change de pion avec le joueur de ton choix, Tu hérites de sa case, de ses Jokers comme de ses poisses, et vice-versa."
+	},
+	{
+		"id": 33,
+		"label": "33 Tours : Tu tournes en rond comme un vinyle. Bois 1 gorgée."
+	},
+	{
+		"id": 34,
+		"label": "3/4 Cuir : Fusillade ! Choisis ton bouclier humain. Le joueur de ton choix se fait descendre et retourne sur la case départ, PS : Fouille-le, voir si il a pas un Joker."
+	},
+	{
+		"id": 35,
+		"label": "Les 35 heures c'est fini : Il est l'heure de faire des heures sup... Lance le dé et bois le nombre de gorgées qu'il indiquera."
+	},
+	{
+		"id": 36,
+		"label": "36ème Chambre de Shaolin : ODB revient des morts te donner son joker qu'il n'apas eu l'temps d'utiliser... Tu gagnes un Joker à utiliser avant la fin de la partie."
+	},
+	{
+		"id": 37,
+		"label": "37,5° : La température monte.. Bois 1 bouchon."
+	},
+	{
+		"id": 38,
+		"label": "Amandine du 38 : Chante quelques phases du son de ton choix."
+	},
+	{
+		"id": 39,
+		"label": "Debut de la guerre 39-45 : Attends qu'un Joueur fasse un 6 pour que la guerre se finisse et que tu ailles sur la case 45 sinon bois une gorgée à chaque défaite. C'est-à-dire à chaque fois que quelqu'un lance le dé."
+	},
+	{
+		"id": 40,
+		"label": "Ali Baba et les 40 voleurs : Si un des joueurs a un joker tu peux le lui voler.. Sinon tant pis pour toi, bois 2 gorgées."
+	},
+	{
+		"id": 41,
+		"label": "4-1 Catin : On t'a peté les reins, tu boites.. Le SAMU est venu te chercher, retourne sur la case 15."
+	},
+	{
+		"id": 42,
+		"label": "Marathon 42km : La course est loin d'être finie, prends des forces on t'offre à boire. Bois 2 gorgees dans le verre de l'adversaire de ton choix."
+	},
+	{
+		"id": 43,
+		"label": "Georges W. Bush 43eme président des Etats-Unis : Bouton rouge ! Arme de destruction massive ! Tous tes adversaires lancent le dé et boivent le nombre de gorgées qu'il indiquera."
+	},
+	{
+		"id": 44,
+		"label": "4x4 :Va sur la case du joueur de ton choix."
+	},
+	{
+		"id": 45,
+		"label": "Fin de la guerre 39-45 : Armistice, Tout l'monde trinque et boit 1 gorgée."
+	},
+	{
+		"id": 46,
+		"label": "En 2-4-6 : Chaque joueur lance le dé, celui qui ne fait pas un 2, un 4 ou un 6 boit 2 gorgées."
+	},
+	{
+		"id": 47,
+		"label": "AK-47 : Tire dans l'tas, Chacun de tes adversaires choisit un chiffre de 1 à 6 (ils peuvent choisir le même). Lance le dé, si le chiffre d'un des joueurs sort, tu l'exécutes et il devra retourner à la case départ. Sinon, vas en G.A.V case 48."
+	},
+	{
+		"id": 48,
+		"label": "48 heures de G.A.V : La garde à vue s'eternise .. Passe 2 tours. Si tu as un joker tu le perds à la fouille."
+	},
+	{
+		"id": 49,
+		"label": "Marche Arriere : Tout l'monde recule d'1 case et subit le gage de la case sur laquelle il atterrit."
+	},
+	{
+		"id": 50,
+		"label": "Top 50 : Fredonne un air connu, le premier à trouver le titre ou l'interprète fait boire 2 gorgées à l'adversaire de son choix."
+	},
+	{
+		"id": 51,
+		"label": "Zone 51 : Tu as été enlevé par les extra-terrestres, Passe 1 tour."
+	},
+	{
+		"id": 52,
+		"label": "Coup d'poker 52 Cartes : Tapis. Choisis le joueur de ton choix pour une partie de pierre-feuille-ciseaux. Le perdant devra finir son verre."
+	},
+	{
+		"id": 53,
+		"label": "Coccinelle n°53 : Panne sèche, va chercher d'l'essence. Lance le dé et recule du nombre de cases qu'il t'indiquera."
+	},
+	{
+		"id": 54,
+		"label": "5 4 3 2 1 Feuuuuuu : Tout l'monde boit une gorgée. Le dernier à la boire en reboit 2 autres."
+	},
+	{
+		"id": 55,
+		"label": "Recu 5/5 : Distribue 5 gorgées à l'adversaire de ton choix."
+	},
+	{
+		"id": 56,
+		"label": "56 kbit/s : Putain tu rames mec, ici on boit à haut débit. Bois 3 gorgées."
+	},
+	{
+		"id": 57,
+		"label": "3-5-7 Magnum : Roulette russe.. Tous les Joueurs lancent le dé, le 1er à faire 1 s'en prend une en pleine tête, et retourne à la case départ."
+	},
+	{
+		"id": 58,
+		"label": "58 Minutes pour vivre : Tu es invincible comme John Mac Clane. Tu gagnes un joker."
+	},
+	{
+		"id": 59,
+		"label": "59 Bienvenue chez les ch'tis : Bois 1 gorgée à la bouteille."
+	},
+	{
+		"id": 60,
+		"label": "60 secondes chrono : Minute de silence, Tu n'as plus l'droit à la parole durant 1 minute sinon finis ton verre cul sec."
+	},
+	{
+		"id": 61,
+		"label": "6-1/6-1 : Jeu set et match: Victoire écrasante. Fais boire 2 gorgées au joueur de ton choix."
+	},
+	{
+		"id": 62,
+		"label": "PUTE."
+	},
+	{
+		"id": 63,
+		"label": "28 août 1963 : I have a dream... Chez nous les rêves se finissent toujours en cauchemar. Avance de 6 cases."
+	},
+	{
+		"id": 64,
+		"label": "64 cases en moins : Échec et mat. Le Gouffre t'as vaincu. Avance de 5 cases."
+	},
+	{
+		"id": 65,
+		"label": "65 ans : L'âge de la retraite : Dans l'Gouffre on ne l'atteint pas.. Avance de 4 cases."
+	},
+	{
+		"id": 66,
+		"label": "Route 66 : Elle te guide vers ta décadence. Avance de 3 cases."
+	},
+	{
+		"id": 67,
+		"label": "6+7 = 13 : La poisse t'a rattrapé, Retourne sur la case 13."
+	},
+	{
+		"id": 68,
+		"label": "Mai 68 : Toute révolution est inutile. Tu ne peux changer ta destinée. Avance d'1 case."
+	},
+	{
+		"id": 69,
+		"label": "Le Gouffre te la fait toujours à l'envers, On ne peut pas sortir du Gouffre, fais-toi une raison.. Finis ton verre et savoure la défaite ! (Les plus téméraires peuvent repartir pour un tour..)."
+	}
+]

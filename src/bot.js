@@ -2,6 +2,7 @@ import { Client, GatewayIntentBits, REST, Routes, Events } from 'discord.js';
 import JokeConnection from 'blagues-api';
 import FFDZ_Command from './class/ffdz-command.js';
 import FFDZ_Format from './class/ffdz-format.js';
+import { readFileSync } from 'fs';
 
 // -- CONSTANTS
 
@@ -13,6 +14,8 @@ const BOT_TOKEN 	= process.env.BOT_TOKEN 	|| 'Not found';
 const REST_VERSION 	= process.env.REST_VERSION	|| '10';
 
 const JOKE_TOKEN	= process.env.JOKE_TOKEN	|| 'Not found';
+
+const GOUFFRE_RULES = JSON.parse(readFileSync('/app/data/gouffre.json', 'utf8'));
 
 // -- CONNECTIONS
 
@@ -34,7 +37,8 @@ const jokeConnection = new JokeConnection(JOKE_TOKEN);
 // Definition
 const botCommands = [
 	new FFDZ_Command('geda', 'Raconte une blague "DARK"'),
-	new FFDZ_Command('gedi', 'Raconte une blague "LIMIT"')
+	new FFDZ_Command('gedi', 'Raconte une blague "LIMIT"'),
+	new FFDZ_Command('gouffre', 'Finis ton verre')
 ];
 
 // Registering slash commands to the server
@@ -76,6 +80,11 @@ client.on(Events.InteractionCreate, async (interaction) => {
 			await interaction.deferReply();
 			buffer = await jokeConnection.randomCategorized(jokeConnection.categories.LIMIT);
 			await interaction.editReply(FFDZ_Format.joke(buffer || defaultJoke));
+			break;
+
+		case 'gouffre':
+			buffer = parseInt(( Math.random() * 100 ) % 69);
+			interaction.reply(FFDZ_Format.gouffre(GOUFFRE_RULES[buffer]));
 			break;
 
 	}
